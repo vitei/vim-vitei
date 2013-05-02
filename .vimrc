@@ -3,7 +3,12 @@ execute pathogen#helptags()
 syntax on
 filetype plugin indent on
 
+if !has('gui_running')
+	let g:solarized_termcolors=16
+endif
+
 set background=dark
+colorscheme solarized
 
 set noexpandtab                " Don't expand tabs into spaces
 set ts=4                       " A tab is four spaces
