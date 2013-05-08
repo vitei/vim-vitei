@@ -23,3 +23,4 @@ set noswapfile                 " Don't create swapfiles
 
 set history=1000               " Longer command history
 set undolevels=1000            " Longer undo history
+set undodir=~/.vim/undo        " Don't clutter up working directories with undo files
