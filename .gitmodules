@@ -10,3 +10,12 @@
 [submodule "bundle/vim-sourcepawn"]
 	path = bundle/vim-sourcepawn
 	url = git://github.com/withgod/vim-sourcepawn.git
+[submodule "bundle/vim-clojure-static"]
+	path = bundle/vim-clojure-static
+	url = git://github.com/guns/vim-clojure-static.git
+[submodule "bundle/vim-fireplace"]
+	path = bundle/vim-fireplace
+	url = git://github.com/tpope/vim-fireplace
+[submodule "bundle/ranbow_parentheses.vim"]
+	path = bundle/ranbow_parentheses.vim
+	url = git://github.com/kien/rainbow_parentheses.vim.git

@@ -28,3 +28,21 @@ set undodir=~/.vim/undo        " Don't clutter up working directories with undo 
 " Set sourcepawn as the default filetype for .p and .inc files
 let filetype_p = "sourcepawn"
 let filetype_inc = "sourcepawn"
+
+" Rainbow parentheses settings
+let g:rbpt_max = 30
+au VimEnter * RainbowParenthesesToggle
+au Syntax * RainbowParenthesesLoadRound
+au Syntax * RainbowParenthesesLoadSquare
+au Syntax * RainbowParenthesesLoadBraces
+
+" The default colours render some brackets invisible on dark terminals!
+let g:rbpt_colorpairs = [
+  \ ['red',         'RoyalBlue3'],
+  \ ['white',       'DarkOrchid3'],
+  \ ['darkmagenta', 'firebrick3'],
+  \ ['darkcyan',    'SeaGreen3'],
+  \ ['darkgreen',   'RoyalBlue3'],
+  \ ['darkred',     'DarkOrchid3'],
+  \ ['yellow',      'firebrick3'],
+  \ ]
