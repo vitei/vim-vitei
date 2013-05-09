@@ -24,3 +24,7 @@ set noswapfile                 " Don't create swapfiles
 set history=1000               " Longer command history
 set undolevels=1000            " Longer undo history
 set undodir=~/.vim/undo        " Don't clutter up working directories with undo files
+
+" Set sourcepawn as the default filetype for .p and .inc files
+let filetype_p = "sourcepawn"
+let filetype_inc = "sourcepawn"
